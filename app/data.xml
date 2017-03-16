@@ -1,0 +1,321 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<data bott1='http://www.iphones.ru' bott2='https://www.iphones.ru/iNotes/Letnie_poleznosti_ot_Aliexpress_Vybiraj_nedorogo' bott3='https://www.iphones.ru/iNotes/578294' bott4='https://www.iphones.ru/iNotes/zharkij_shumnyj_neavtonomnyj_Kak_ja_delal_profilaktiku_svoego_MacBook_Air' bott5='https://www.iphones.ru/iNotes/578160' cokolFlatUrl='http://remkasam.ru/smesitel-s-termostatom-brat-ili-ne-brat.html'>
+	<snoskas>
+		<snoska buttonNum='1' columns='1' width='200' height='180' bottWidth='200' bottHeight='60' pozit='DN' >
+			<cell url='yandex.ru' column='1' >Гипермаркет ОКЕЙ</cell>
+		</snoska>
+		<snoska buttonNum='2' columns='1' width='350' height='240' bottWidth='350' bottHeight='60' pozit='DN' >
+			<cell url='yandex.ru' column='1' >MediaMarkt</cell>
+			<cell url='yandex.ru' column='1' >Takko Fashion</cell>
+			<cell url='yandex.ru' column='1' >Foto.ru</cell>
+		</snoska>
+		<snoska buttonNum='3' columns='2' width='300' height='300' bottWidth='300' bottHeight='60' pozit='DN'>
+			<cell url='yandex.ru' column='1'  >Сад бабочек</cell>
+			<cell url='yandex.ru' column='1'  >Трогательный зоопарк</cell>
+			<cell url='yandex.ru' column='1'  >Экзопарк</cell>
+			<cell url='yandex.ru' column='1'  >DLF</cell>
+			<cell url='yandex.ru' column='1' >Мир пальто</cell>
+			<cell url='yandex.ru' column='2'  >Kriana</cell>
+			<cell url='yandex.ru' column='2'  >Maxi trend</cell>
+			<cell url='yandex.ru' column='2'  >Ленточный лабиринт</cell>
+			<cell url='yandex.ru' column='2'  >Rieker</cell>
+		</snoska>
+		<snoska buttonNum='4' columns='1' width='350' height='200' bottWidth='350' bottHeight='60' pozit='DN' >
+			<cell url='yandex.ru' column='1' >Океан Парк</cell>
+			<cell url='yandex.ru' column='1' >Зеркальный лабиринт</cell>
+			<cell url='yandex.ru' column='1' >Крокодиловая ферма</cell>
+		</snoska>
+		<snoska buttonNum='5' columns='1' width='400' height='180' bottWidth='400' bottHeight='60' pozit='UP' >
+			<cell url='yandex.ru' column='1' >Теремок</cell>
+			<cell url='yandex.ru' column='1' >Subway</cell>
+			<cell url='yandex.ru' column='1' >Гек Чебурек</cell>
+			<cell url='yandex.ru' column='1' >Pastachef</cell>
+			<cell url='yandex.ru' column='1' >Burger King</cell>
+			<cell url='yandex.ru' column='1' >Gyro Grill</cell>
+			<cell url='yandex.ru' column='1' >Pizza.ru</cell>
+			<cell url='yandex.ru' column='1' >Wafel Boom</cell>
+			<cell url='yandex.ru' column='1' >Пузатая хата</cell>
+		</snoska>
+		<snoska buttonNum='6' columns='1' width='200' height='240' bottWidth='250' bottHeight='80' pozit='DN' >
+			<cell url='yandex.ru' column='1' >Планета Мебели</cell>
+		</snoska>
+		<snoska buttonNum='7' columns='1' width='300' height='300' bottWidth='300' bottHeight='60' pozit='DN'>
+			<cell url='yandex.ru' column='1'  >Детский мир</cell>
+			<cell url='yandex.ru' column='1'  >Кухни ХХ1 век</cell>
+			<cell url='yandex.ru' column='1'  >Baby top</cell>
+			<cell url='yandex.ru' column='1'  >Польская мода</cell>
+			<cell url='yandex.ru' column='1'  >Балу</cell>
+			<cell url='yandex.ru' column='1'  >Tiflani</cell>
+			<cell url='yandex.ru' column='1'  >Masimar</cell>
+			<cell url='yandex.ru' column='1'  >Кавалер</cell>
+			<cell url='yandex.ru' column='1'  >Модные детки</cell>
+			<cell url='yandex.ru' column='1'  >Карамелька</cell>
+			<cell url='yandex.ru' column='1'  >Колготки Италии</cell>
+			<cell url='yandex.ru' column='1'  >Катюша</cell>
+		</snoska>
+		<snoska buttonNum='8' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Kitchen Cool</cell>
+			<cell url='yandex.ru' column='1' >Интерьер</cell>
+			<cell url='yandex.ru' column='1' >Top kids</cell>
+			<cell url='yandex.ru' column='1' >Баю бай</cell>
+			<cell url='yandex.ru' column='1' >21 век шкафы-купе</cell>
+		</snoska>
+		<snoska buttonNum='9' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='DN' >
+			<cell url='yandex.ru' column='1' >Castorama</cell>
+		</snoska>
+		<snoska buttonNum='10' columns='2' width='200' height='200' bottWidth='300' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Наша Аптека</cell>
+			<cell url='yandex.ru' column='1' >Mybox</cell>
+			<cell url='yandex.ru' column='1' >Суши Весла</cell>
+			<cell url='yandex.ru' column='1' >Стиль Оптика</cell>
+			<cell url='yandex.ru' column='1' >Барсик</cell>
+			<cell url='yandex.ru' column='1' >Obyv.com</cell>
+			<cell url='yandex.ru' column='1' >Fanagoria</cell>
+			<cell url='yandex.ru' column='2' >Билайн</cell>
+			<cell url='yandex.ru' column='2' >Л,Этуаль</cell>
+			<cell url='yandex.ru' column='2' >МобилМаркет</cell>
+			<cell url='yandex.ru' column='2' >Евросеть</cell>
+			<cell url='yandex.ru' column='2' >Зоомаркет</cell>
+			<cell url='yandex.ru' column='2' >МТС</cell>
+		</snoska>
+		<snoska buttonNum='11' columns='2' width='200' height='200' bottWidth='300' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Телефон.ру</cell>
+			<cell url='yandex.ru' column='1' >Gipfel</cell>
+			<cell url='yandex.ru' column='1' >Cвязной</cell>
+			<cell url='yandex.ru' column='1' >Айкрафт оптика</cell>
+			<cell url='yandex.ru' column='1' >Сигары и трубки</cell>
+			<cell url='yandex.ru' column='1' >Ваниль</cell>
+			<cell url='yandex.ru' column='1' >DNS</cell>
+			<cell url='yandex.ru' column='1' >МТС</cell>
+			<cell url='yandex.ru' column='2' >Кадриль</cell>
+			<cell url='yandex.ru' column='2' >Fresh Line</cell>
+			<cell url='yandex.ru' column='2' >Finn Flare</cell>
+			<cell url='yandex.ru' column='2' >OGGI</cell>
+			<cell url='yandex.ru' column='2' >Betty Barclay</cell>
+			<cell url='yandex.ru' column='2' >Chester</cell>
+			<cell url='yandex.ru' column='2' >МЮЗ</cell>
+			<cell url='yandex.ru' column='2' >Салон часов</cell>
+		</snoska>
+		<snoska buttonNum='12' columns='2' width='200' height='200' bottWidth='300' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Tele2</cell>
+			<cell url='yandex.ru' column='1' >Zolla</cell>
+			<cell url='yandex.ru' column='1' >Remonte</cell>
+			<cell url='yandex.ru' column='1' >Eff</cell>
+			<cell url='yandex.ru' column='1' >Baggage</cell>
+			<cell url='yandex.ru' column='1' >Milavitsa</cell>
+			<cell url='yandex.ru' column='1' >Gray wolf</cell>
+			<cell url='yandex.ru' column='1' >Elis</cell>
+			<cell url='yandex.ru' column='2' >C Store</cell>
+			<cell url='yandex.ru' column='2' >Glance</cell>
+			<cell url='yandex.ru' column='2' >Salko</cell>
+			<cell url='yandex.ru' column='2' >Incanto</cell>
+			<cell url='yandex.ru' column='2' >AWSM</cell>
+			<cell url='yandex.ru' column='2' >Maxi обувь</cell>
+			<cell url='yandex.ru' column='2' >Tom Farr</cell>
+		</snoska>
+		<snoska buttonNum='13' columns='2' width='200' height='200' bottWidth='300' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Koliaski23.ru</cell>
+			<cell url='yandex.ru' column='1' >Персона</cell>
+			<cell url='yandex.ru' column='1' >Darkwin</cell>
+			<cell url='yandex.ru' column='1' >Colibri</cell>
+			<cell url='yandex.ru' column='1' >KFS</cell>
+			<cell url='yandex.ru' column='1' >Детство.РУ</cell>
+			<cell url='yandex.ru' column='1' >Скоро Мама</cell>
+			<cell url='yandex.ru' column='1' >Каспер</cell>
+			<cell url='yandex.ru' column='1' >Pelican kids</cell>
+			<cell url='yandex.ru' column='1' >A@B</cell>
+			<cell url='yandex.ru' column='1' >For Men</cell>
+			<cell url='yandex.ru' column='2' >MTY</cell>
+			<cell url='yandex.ru' column='2' >City style</cell>
+			<cell url='yandex.ru' column='2' >Vensi</cell>
+			<cell url='yandex.ru' column='2' >Conte</cell>
+			<cell url='yandex.ru' column='2' >Liarmi</cell>
+			<cell url='yandex.ru' column='2' >Наше золото</cell>
+			<cell url='yandex.ru' column='2' >Samsung</cell>
+			<cell url='yandex.ru' column='2' >Sunlight</cell>
+			<cell url='yandex.ru' column='2' >Potis & Verso</cell>
+			<cell url='yandex.ru' column='2' >Пеплос</cell>
+			<cell url='yandex.ru' column='2' >Марина</cell>
+		</snoska>
+		<snoska buttonNum='14' columns='1' width='200' height='200' bottWidth='350' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Вестра</cell>
+			<cell url='yandex.ru' column='1' >Кухни Люкс</cell>
+			<cell url='yandex.ru' column='1' >DaniLand</cell>
+			<cell url='yandex.ru' column='1' >Много мебели</cell>
+			<cell url='yandex.ru' column='1' >Fashion Pymes</cell>
+			<cell url='yandex.ru' column='1' >MAAT Мебель</cell>
+			<cell url='yandex.ru' column='1' >Мир матери и ребенка</cell>
+		</snoska>
+		<snoska buttonNum='15' columns='2' width='200' height='200' bottWidth='350' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Спортмастер</cell>
+			<cell url='yandex.ru' column='1' >Адамас</cell>
+			<cell url='yandex.ru' column='1' >Ives Rocher</cell>
+			<cell url='yandex.ru' column='1' >Magic Bags</cell>
+			<cell url='yandex.ru' column='1' >Sogo</cell>
+			<cell url='yandex.ru' column='1' >The MIX</cell>
+			<cell url='yandex.ru' column='2' >Fissman</cell>
+			<cell url='yandex.ru' column='2' >Комакс</cell>
+			<cell url='yandex.ru' column='2' >Салон красоты «7 желаний»</cell>
+			<cell url='yandex.ru' column='2' >Алкотека</cell>
+			<cell url='yandex.ru' column='2' >Времечко</cell>   
+		</snoska>
+		<snoska buttonNum='16' columns='1' width='200' height='200' bottWidth='300' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Подарки</cell>
+			<cell url='yandex.ru' column='1' >O,Stin</cell>
+			<cell url='yandex.ru' column='1' >Снежная королева</cell>
+			<cell url='yandex.ru' column='1' >Парикмастерский магазин</cell>
+			<cell url='yandex.ru' column='1' >Papa Johns</cell>
+			<cell url='yandex.ru' column='1' >Пальто.RU</cell>
+			<cell url='yandex.ru' column='1' >Nic & Sun</cell>
+			<cell url='yandex.ru' column='1' >1001 сумка</cell>
+		</snoska>
+		<snoska buttonNum='17' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Westland</cell>
+			<cell url='yandex.ru' column='1' >Calipso</cell>
+			<cell url='yandex.ru' column='1' >Gloria Jeans</cell>
+			<cell url='yandex.ru' column='1' >SELA</cell>
+		</snoska>
+		<snoska buttonNum='18' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Atlantic</cell>
+			<cell url='yandex.ru' column='1' >Belwest</cell>
+			<cell url='yandex.ru' column='1' >Favori</cell>
+			<cell url='yandex.ru' column='1' >Vaide</cell>
+			<cell url='yandex.ru' column='1' >Bovona</cell>
+			<cell url='yandex.ru' column='1' >Большие люди-С</cell>
+			<cell url='yandex.ru' column='1' >Дольче Вита-Арт</cell>
+		</snoska>
+		<snoska buttonNum='19' columns='1' width='200' height='200' bottWidth='350' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Детский центр Космодром</cell>
+			<cell url='yandex.ru' column='1' >Sweet home</cell>
+			<cell url='yandex.ru' column='1' >Belatex</cell>
+			<cell url='yandex.ru' column='1' >Идея паркета</cell>
+			<cell url='yandex.ru' column='1' >Обойкин</cell>
+			<cell url='yandex.ru' column='1' >Массажный мир</cell>
+			<cell url='yandex.ru' column='1' >Правильные ковры</cell>
+			<cell url='yandex.ru' column='1' >Evro сантехника</cell>
+			<cell url='yandex.ru' column='1' >Прачечная самообслуживания Вятки.com</cell>
+			<cell url='yandex.ru' column='1' >Сity matress</cell>
+		</snoska>
+		<snoska buttonNum='20' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Мебель.RU</cell>
+			<cell url='yandex.ru' column='1' >Аршин</cell>
+		</snoska>
+		<snoska buttonNum='21' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Гостиница</cell>
+		</snoska>
+		<snoska buttonNum='22' columns='2' width='200' height='200' bottWidth='300' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Зайка ми</cell>
+			<cell url='yandex.ru' column='1' >Чехломаркет</cell>
+			<cell url='yandex.ru' column='1' >Golden life</cell>
+			<cell url='yandex.ru' column='1' >Zolotov & Serebrov</cell>
+			<cell url='yandex.ru' column='1' >Электронные сигареты</cell>
+			<cell url='yandex.ru' column='1' >I бутик</cell>
+			<cell url='yandex.ru' column='2' >Авто-профи</cell>
+			<cell url='yandex.ru' column='2' >Collezioni</cell>
+			<cell url='yandex.ru' column='2' >София</cell>
+			<cell url='yandex.ru' column='2' >Золотой каприз</cell>
+			<cell url='yandex.ru' column='2' >Sunny Land</cell>
+			<cell url='yandex.ru' column='2' >YOTA</cell>
+		</snoska>
+		<snoska buttonNum='23' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Сувениры 23</cell>
+			<cell url='yandex.ru' column='1' >Белье 23</cell>
+			<cell url='yandex.ru' column='1' >Покупки 23 </cell>
+			<cell url='yandex.ru' column='1' >Продажи 23</cell>
+		</snoska>
+		<snoska buttonNum='24' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='DN' >
+			<cell url='yandex.ru' column='1' >Арт-Песочница</cell>
+			<cell url='yandex.ru' column='1' >Рыбалка</cell>
+			<cell url='yandex.ru' column='1' >Кубанские сувениры</cell>
+			<cell url='yandex.ru' column='1' >Времечко</cell>
+		</snoska>
+		<snoska buttonNum='25' columns='1' width='200' height='200' bottWidth='350' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Наше Серебро</cell>
+			<cell url='yandex.ru' column='1' >Kassir.ru</cell>
+			<cell url='yandex.ru' column='1' >Mybox</cell>
+			<cell url='yandex.ru' column='1' >Дом кофе</cell>
+		</snoska>
+		<snoska buttonNum='26' columns='1' width='200' height='200' bottWidth='300' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Паровозик</cell>
+			<cell url='yandex.ru' column='1' >Style</cell>
+			<cell url='yandex.ru' column='1' >Крымская живая косметика</cell>
+			<cell url='yandex.ru' column='1' >Nogi v Ruki</cell>
+			<cell url='yandex.ru' column='1' >Кубанские сувениры</cell>
+			<cell url='yandex.ru' column='1' >33 пингвина</cell>
+		</snoska>
+		<snoska buttonNum='27' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >33 пингвина</cell>
+			<cell url='yandex.ru' column='1' >Почта России</cell>
+			<cell url='yandex.ru' column='1' >Sefaro</cell>
+			<cell url='yandex.ru' column='1' >Ремонт часов</cell>
+			<cell url='yandex.ru' column='1' >Lero</cell>
+			<cell url='yandex.ru' column='1' >Авторадар</cell>
+			<cell url='yandex.ru' column='1' >Pro time</cell>
+		</snoska>
+		<snoska buttonNum='28' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Belf Store</cell>
+			<cell url='yandex.ru' column='1' >Ремонт часов</cell>
+			<cell url='yandex.ru' column='1' >Skazka</cell>
+			<cell url='yandex.ru' column='1' >Мегафон</cell>
+			<cell url='yandex.ru' column='1' >Budu coffee</cell>
+		</snoska>
+		<snoska buttonNum='29' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Pro time</cell>
+		</snoska>
+		<snoska buttonNum='30' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Сувениры 30</cell>
+			<cell url='yandex.ru' column='1' >Белье</cell>
+			<cell url='yandex.ru' column='1' >Покупки</cell>
+			<cell url='yandex.ru' column='1' >Продажи</cell>
+		</snoska>
+		<snoska buttonNum='31' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Сувениры31</cell>
+			<cell url='yandex.ru' column='1' >Белье 31</cell>
+			<cell url='yandex.ru' column='1' >Покупки 31</cell>
+			<cell url='yandex.ru' column='1' >Продажи 31</cell>
+		</snoska>
+		<snoska buttonNum='32' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Фотогравировка</cell>
+			<cell url='yandex.ru' column='1' >Восточный парфюм</cell>
+			<cell url='yandex.ru' column='1' >Cinnabon</cell>
+			<cell url='yandex.ru' column='1' >Ля шик</cell>
+			<cell url='yandex.ru' column='1' >Вимси</cell>
+			<cell url='yandex.ru' column='1' >Pandora</cell>
+			<cell url='yandex.ru' column='1' >Чешская бижутерия</cell>
+			<cell url='yandex.ru' column='1' >Zinger</cell>
+		</snoska>
+		<snoska buttonNum='33' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Сувениры 33</cell>
+			<cell url='yandex.ru' column='1' >Белье 33</cell>
+			<cell url='yandex.ru' column='1' >Покупки  33</cell>
+			<cell url='yandex.ru' column='1' >Продажи 33</cell>
+		</snoska>
+		<snoska buttonNum='34' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Сувениры 34</cell>
+			<cell url='yandex.ru' column='1' >Белье 34</cell>
+			<cell url='yandex.ru' column='1' >Покупки 34</cell>
+			<cell url='yandex.ru' column='1' >Продажи 34</cell>
+		</snoska>
+		<snoska buttonNum='35' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Сувениры 35</cell>
+			<cell url='yandex.ru' column='1' >Белье 35</cell>
+			<cell url='yandex.ru' column='1' >Покупки 35</cell>
+			<cell url='yandex.ru' column='1' >Продажи 35</cell>
+		</snoska>
+		<snoska buttonNum='36' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Сувениры36</cell>
+			<cell url='yandex.ru' column='1' >Белье 36</cell>
+			<cell url='yandex.ru' column='1' >Покупки 36</cell>
+			<cell url='yandex.ru' column='1' >Продажи 36</cell>
+		</snoska>
+		<snoska buttonNum='37' columns='1' width='200' height='200' bottWidth='200' bottHeight='50' pozit='LF' >
+			<cell url='yandex.ru' column='1' >Декор панно</cell>
+			<cell url='yandex.ru' column='1' >Картины</cell>
+			<cell url='yandex.ru' column='1' >Кофевар</cell>
+			<cell url='yandex.ru' column='1' >Carte Dor</cell>
+			<cell url='yandex.ru' column='1' >Лаки</cell>
+			<cell url='yandex.ru' column='1' >Glutoclean</cell>
+			<cell url='yandex.ru' column='1' >Avto Frant</cell>
+		</snoska>
+	</snoskas>
+</data>

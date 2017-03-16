@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'pfagorasanspro-bold';
+    src: url('../fonts/PFagorasanspro/pfagorasanspro-bold/pfagorasanspro-bold.woff') format('woff'),
+         url('../fonts/PFagorasanspro/pfagorasanspro-bold/pfagorasanspro-bold.eot') format('eot'),
+         url('../fonts/PFagorasanspro/pfagorasanspro-bold/pfagorasanspro-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pfagorasanspro-bolditalic';
+    src: url('../fonts/PFagorasanspro/pfagorasanspro-bolditalic/pfagorasanspro-bolditalic.woff') format('woff'),
+         url('../fonts/PFagorasanspro/pfagorasanspro-bolditalic/pfagorasanspro-bolditalic.eot') format('eot'),
+         url('../fonts/PFagorasanspro/pfagorasanspro-bolditalic/pfagorasanspro-bolditalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pfagorasanspro-italic';
+    src: url('../fonts/PFagorasanspro/pfagorasanspro-italic/pfagorasanspro-italic.woff') format('woff'),
+         url('../fonts/PFagorasanspro/pfagorasanspro-italic/pfagorasanspro-italic.eot') format('eot'),
+         url('../fonts/PFagorasanspro/pfagorasanspro-italic/pfagorasanspro-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pfagorasanspro-light';
+    src: url('../fonts/PFagorasanspro/pfagorasanspro-light/pfagorasanspro-light.woff') format('woff'),
+         url('../fonts/PFagorasanspro/pfagorasanspro-light/pfagorasanspro-light.eot') format('eot'),
+         url('../fonts/PFagorasanspro/pfagorasanspro-light/pfagorasanspro-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pfagorasanspro-medium';
+    src: url('../fonts/PFagorasanspro/pfagorasanspro-medium/pfagorasanspro-medium.woff') format('woff'),
+         url('../fonts/PFagorasanspro/pfagorasanspro-medium/pfagorasanspro-medium.eot') format('eot'),
+         url('../fonts/PFagorasanspro/pfagorasanspro-medium/pfagorasanspro-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pfagorasanspro-mediumital';
+    src: url('../fonts/PFagorasanspro/pfagorasanspro-mediumital/pfagorasanspro-mediumital.woff') format('woff'),
+         url('../fonts/PFagorasanspro/pfagorasanspro-mediumital/pfagorasanspro-mediumital.eot') format('eot'),
+         url('../fonts/PFagorasanspro/pfagorasanspro-mediumital/pfagorasanspro-mediumital.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pfagorasanspro-reg';
+    src: url('../fonts/PFagorasanspro/pfagorasanspro-reg/pfagorasanspro-reg.woff') format('woff'),
+         url('../fonts/PFagorasanspro/pfagorasanspro-reg/pfagorasanspro-reg.eot') format('eot'),
+         url('../fonts/PFagorasanspro/pfagorasanspro-reg/pfagorasanspro-reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

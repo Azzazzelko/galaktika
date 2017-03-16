@@ -1,0 +1,82 @@
+/* ======= mixins ========= */
+/* ===== instruments ====== */
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a,
+a:hover,
+a:focus {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'pfagorasanspro-reg';
+  display: table;
+  line-height: normal;
+  background: url('../images/bg.png?1489666726');
+}
+
+.img-container {
+  max-width: 100%;
+}
+
+.img-responsive {
+  max-width: inherit;
+}
+
+.main {
+  height: auto;
+  overflow: hidden;
+}
+
+.footer {
+  height: 1px;
+  display: table-row;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ======= sections ====== */
+.container {
+  width: 1000px;
+}
+
+#flashContent {
+  width: 100%;
+  height: 670px;
+}
+
+/*# sourceMappingURL=main.css.map */
