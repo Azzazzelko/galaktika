@@ -1,0 +1,14 @@
+body {
+	background: image-url('bg-items/registration-bg-shadow.png') no-repeat center top,
+				image-url('bg-items/registration-bg-body.png') repeat-y center,
+				image-url('bg.png');
+}
+
+.footer__bottom {
+	padding: 25px 0 25px 0;
+}
+
+.footer__bottom-top-btn, .footer__bottom-top-btn:focus, .footer__bottom-top-btn:hover {
+	border: none;
+	padding: 0;
+}
