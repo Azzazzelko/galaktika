@@ -1,0 +1,93 @@
+.shops-block {
+	padding-bottom: 85px;
+}
+
+.shops-block__title {
+	position: relative;
+	padding-left: 110px;
+	padding-top: 38px;
+	text-decoration: underline;
+	font-size: 35px;
+	line-height: 30px;
+	@include font(med);
+	color: #ba368c;
+	margin-bottom: 38px;
+
+	&:before {
+		position: absolute;
+		display: block;
+		content: "";
+		width: 89px;
+		height: 88px;
+		background: image-url('menu-magazine.png') no-repeat;
+		top: -12px;
+		left: 0;
+	}
+}
+
+.shops-block__item {
+	margin-bottom: 30px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.shops-block__link,
+.shops-block__link:hover,
+.shops-block__link:focus {
+	display: inline-block;
+	text-decoration: underline;
+	font-size: 30px;
+	line-height: 30px;
+	@include font(medital);
+	color: #1eb1cc;
+	margin-bottom: 10px;
+}
+
+.shops-block__link {
+	@include linksHover();
+}
+
+.shops-block__item-list {
+	font-size: 0;
+}
+
+.shops-block__item-item {
+	display: inline-block;
+
+	&:last-child {
+		.shops-block__item-link,
+		.shops-block__item-link:hover,
+		.shops-block__item-link:focus {
+			&:after {
+				display: none;
+			}
+		}
+	}
+}
+
+.shops-block__item-link,
+.shops-block__item-link:hover,
+.shops-block__item-link:focus {
+	transition: all .3s;
+	display: inline-block;
+	text-decoration: underline;
+	@include font(medital);
+	color: #fff;
+	font-size: 18px;
+	line-height: 30px;
+	position: relative;
+
+	&:after {
+		display: inline-block;
+		content: ",";
+		padding-right: 5px;
+		text-decoration: underline;
+	}
+}
+
+.shops-block__item-link:hover {
+	color: #ba368c;
+}
+

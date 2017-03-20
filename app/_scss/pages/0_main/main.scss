@@ -67,8 +67,8 @@
 
 	&.galaktika:before  {
 		background: image-url('menu-galaktika.png') no-repeat;
-		width: 235px;
-		height: 153px;
+		width: 226px;
+		height: 135px;
 		top: -22px;
 	}
 
@@ -320,6 +320,10 @@
 	position: relative;
 	padding-top: 40px;
 	padding-bottom: 77px;
+
+	&.arenda-block_padding {
+		padding-bottom: 45px;
+	}
 
 	&:before {
 		position: absolute;
@@ -573,6 +577,7 @@
 }
 
 .footer__top-socials-list {
+	font-size: 0;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -580,8 +585,8 @@
 .footer__top-socials-item {
 	display: inline-block;
 	margin-right: 12px;
-	width: 27px;
-	height: 27px;
+	width: 28px;
+	height: 28px;
 
 	&:last-child {
 		margin-right: 0;
@@ -607,15 +612,15 @@
 	}
 
 	&.tw {
-		background-position: -77px 0px;
+		background-position: -79px 0px;
 	}
 
 	&.vk {
-		background-position: -117px 0px;
+		background-position: -118px 0px;
 	}
 
 	&.ok {
-		background-position: -157px 0px;
+		background-position: -158px 0px;
 	}
 }
 

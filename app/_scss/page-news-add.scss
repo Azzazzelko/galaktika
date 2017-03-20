@@ -1,0 +1,38 @@
+body {
+	background: image-url('bg-items/registration-bg-shadow.png') no-repeat center top,
+				image-url('bg.png');
+}
+
+.breadcrumbs-block {
+	margin-top: 0;
+	margin-bottom: 30px;
+	padding-top: 5px;
+
+	.breadcrumbs-block__list {
+		text-align: left;
+		display: inline-block;
+	}
+
+	.container {
+		width: auto;
+		padding: 0;
+	}
+}
+
+.header {
+	background: image-url('bg-items/registration-bg-body.png') repeat-y center;
+
+	padding: 25px 0 28px 0;
+	
+	.header-container:before {
+		bottom: -28px;
+	}
+
+	.header-bottom {
+		display: none;
+	}
+}
+
+.main {
+	background: image-url('bg-items/registration-bg-body.png') repeat-y center;
+}

@@ -1,0 +1,25 @@
+.detail-news-block {
+	padding-right: 125px;
+}
+
+.detail-news__title {
+	font-size: 20px;
+	line-height: 24px;
+	@include font(medital);
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.detail-news__description {
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+.detail-news__img-container {
+	margin-bottom: 40px;
+}
+
+.detail-news__img {
+	width: 100%;
+}

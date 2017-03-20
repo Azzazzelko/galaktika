@@ -4,12 +4,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Регистрация</title>
+	<title>Бутик</title>
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/fonts.css">
 	<link rel="stylesheet" href="../css/owl.carousel.css">
+	<link rel="stylesheet" href="../css/jquery-ui.min.css">
 	<link rel="stylesheet" href="../css/main.css">
-	<link rel="stylesheet" href="../css/registration-add.css">
+	<link rel="stylesheet" href="../css/page-news-add.css">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -64,77 +65,131 @@
 	</header>
 
 	<main class="main">
-		<section class="breadcrumbs-block">
+		<section class="boutique-top">
 			<div class="container">
-				<ul class="breadcrumbs-block__list">
-					<li class="breadcrumbs-block__item">
-						<a href="#" class="breadcrumbs-block__link">на главную</a>
-					</li>
-					<li class="breadcrumbs-block__item">
-						Авторизация
-					</li>
-				</ul>
+				<div class="boutique-top__img-container">
+					<img src="../images/boutique-img.png" alt="img" class="boutique-top__img">
+				</div>
 			</div>
 		</section>
 
-		<section class="registration-block">
+		<section class="content-block">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-6">
-						<div class="registration-block__left">
-							<form action="#" class="registration-block__authoriz-form clearfix">
-								<div class="authoriz-form__title">Войтив кабинет</div>
-								<input type="text" class="registration-block__input blue" placeholder="Ваш телефон, е-mail, логин">
-								<input type="password" class="registration-block__input blue last" placeholder="Ваш пароль">
-								<input type="submit" class="registration-block__submit-btn blue pull-right" value="Зайти">
-							</form>
-						</div>
+					<div class="col-xs-3">
+						<aside class="sidebar">
+							<ul class="sidebar__list">
+								<li class="sidebar__item">
+									<a href="#" class="sidebar__link-title">
+										ТРК «Галактика»
+									</a>
+								</li>
+								<li class="sidebar__item">
+									<a href="#" class="sidebar__link-title">
+										События
+									</a>
+								</li>
+								<li class="sidebar__item active">
+									<a href="#" class="sidebar__link-title">
+										Магазины
+									</a>
+									<ul class="sidebar__item-list">
+										<li class="sidebar__item-item active">
+											<a href="#" class="sidebar__item-link">Одежда и обувь</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Кожгалантерея</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Парфюмерия и косметика</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Украшения и аксессуары</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Подарки и сувениры</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Бытовая техника и электроника</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Продукты питания</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Аптека</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Оптика</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Книги и диски</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Товары для детей</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Часы</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Товары для животных</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Текстиль для дома</a>
+										</li>
+									</ul>
+								</li>
+								<li class="sidebar__item">
+									<a href="#" class="sidebar__link-title">
+										Отдых
+									</a>
+								</li>
+								<li class="sidebar__item">
+									<a href="#" class="sidebar__link-title">
+										Услуги
+									</a>
+								</li>
+							</ul>
+						</aside>
 					</div>
-					<div class="col-xs-6">
-						<div class="registration-block__right">
-							<form action="#" class="registration-block__register-form clearfix">
-								<div class="register-form__title">Зарегистрироваться</div>
-								<div class="register-form__require-text">Поля обязательные к заполнению помечены</div>
-								<div class="register-form__require-container">
-									<input type="text" class="registration-block__input pink" placeholder="ФИО или название организации" required="">
-								</div>
-								<div class="register-form__require-container">
-									<input type="email" class="registration-block__input pink" placeholder="E-mail для связи" required="">
-								</div>
-								<input type="text" class="registration-block__input pink" placeholder="Телефон для связи">
+					<div class="col-xs-9 content-block_padd">
+						<a href="#" class="content-block__tomain-btn">- на главную</a>
 
-								<ul class="register-form__list">
-									<li class="register-form__item">
-										<label class="register-form__label">
-											<input type="radio" name="type" class="register-form__radio" checked="">
-											<div class="register-form__label-text">Островная конструкция</div>
-										</label>
+						<section class="breadcrumbs-block">
+							<div class="container">
+								<ul class="breadcrumbs-block__list">
+									<li class="breadcrumbs-block__item">
+										<a href="#" class="breadcrumbs-block__link">Магазины</a>
 									</li>
-									<li class="register-form__item">
-										<label class="register-form__label">
-											<input type="radio" name="type" class="register-form__radio">
-											<div class="register-form__label-text">Магазин</div>
-										</label>
-									</li>
-									<li class="register-form__item">
-										<div class="register-form__item-text">Диапазон площади аренды (кв.м)</div>
-										<input type="text" placeholder="от" name="diap_from" class="registration-block__input_small small_first">
-										<input type="text" placeholder="до" name="diap_to" class="registration-block__input_small">
+									<li class="breadcrumbs-block__item">
+										ESPRIT 
 									</li>
 								</ul>
 
-								<input type="text" class="registration-block__input pink" placeholder="Срок аренды">
-								<input type="text" class="registration-block__input pink" placeholder="Ссылка на сайт компании">
-								<div class="register-form__attach">
-									<div class="register-form__attach-text">Прикрепить презентацию</div>
-									<label for="register-form__file" class="register-form__label-file">прикрепить</label>
-									<input type="file" class="register-form__file" id="register-form__file" name="attach">
+								<div class="breacrumbs-block__description">
+									(1 этаж, № 203)
 								</div>
-								<input type="text" class="registration-block__input pink last" placeholder="Дополнительная информация">
-								<input type="submit" class="registration-block__submit-btn blue pull-right" value="Отправить">
-								<a href="#" class="registration-block__clear-btn pull-right">Очистить</a>
-							</form>
-						</div>
+							</div>
+						</section>
+
+						<section class="boutique-block">
+							<div class="boutique-block__img-container">
+								<img src="../images/espirit.png" alt="img">
+							</div>
+							<div class="boutique-block__description">
+								<span class="boutique-block__title">
+									Стиль от ESPRIT 
+								</span>
+								<span class="boutique-block__text">
+									— это синоним современного вкуса   
+									и стиля жизни, молодой и динамичный международный бренд качественных товаров по демократичным ценам. Уникальной особенностью коллекций ESPRIT является их ежемесячная обновляемость, а также широкий ассортимент продукции. Марка предлагает большой ассортимент товаров, включая одежду для мужчин и женщин, а также обувь, белье и аксессуары.
+								</span>
+							</div>
+							<div class="boutique-block__event">
+								<p>Распродажа до 25 марта 2015 (Скидки до - 50%)</p>
+								<p>Также новая летняя коллекция от дизайнеров Esprit</p>
+							</div>
+						</section>
+
 					</div>
 				</div>
 			</div>
@@ -339,6 +394,11 @@
 				</div>
 			</div>
 			<div class="footer__bottom">
+				<div class="footer__bottom-info">
+					<div class="footer__bottom-title">© 2014 Торгово-развлекательный комплекс «Галактика»</div>
+					<div class="footer__bottom-tel">Телефон: (434) 123-32-45</div>
+					<a href="#" class="footer__bottom-email">info@trk-galaktika.ru</a>
+				</div>	
 				<a href="#" class="footer__bottom-top-btn">Подняться наверх</a>
 			</div>
 		</div>
@@ -347,6 +407,7 @@
 	<script src="../js/jquery-1.11.0.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
 	<script src="../js/owl.carousel.min.js"></script>
+	<script src="../js/jquery-ui.js"></script>
 	<script src="../js/main.js"></script>
 </body>
 </html>
