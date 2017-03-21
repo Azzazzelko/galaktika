@@ -1,4 +1,13 @@
 @font-face {
+    font-family: 'pfagorasanspro-lightital';
+    src: url('../fonts/PFagorasanspro/pfagorasanspro-lightital/pfagorasanspro-lightital.woff') format('woff'),
+         url('../fonts/PFagorasanspro/pfagorasanspro-lightital/pfagorasanspro-lightital.eot') format('eot'),
+         url('../fonts/PFagorasanspro/pfagorasanspro-lightital/pfagorasanspro-lightital.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'pfagorasanspro-bold';
     src: url('../fonts/PFagorasanspro/pfagorasanspro-bold/pfagorasanspro-bold.woff') format('woff'),
          url('../fonts/PFagorasanspro/pfagorasanspro-bold/pfagorasanspro-bold.eot') format('eot'),

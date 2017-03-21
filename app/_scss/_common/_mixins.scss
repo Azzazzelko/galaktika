@@ -29,6 +29,8 @@
 		font-family: 'pfagorasanspro-light';
 	} @elseif $font == medital {
 		font-family: 'pfagorasanspro-mediumital';
+	} @elseif $font == lightital {
+		font-family: 'pfagorasanspro-lightital';
 	}
 }
 

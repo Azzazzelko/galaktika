@@ -1,0 +1,116 @@
+.finans-page__title {
+	font-size: 20px;
+	line-height: 24px;
+	color: #fff;
+	font-family: 'pfagorasanspro-mediumital';
+	margin-bottom: 20px;
+}
+
+.registration-block__input.finans-page__input {
+	width: 245px;
+	margin-bottom: 0;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.finans-page__form {
+	display: flex;
+	align-items: center;
+}
+
+.registration-block__submit-btn.finans-page__submit-btn {
+	margin-bottom: 0;
+	height: 40px;
+	margin-left: 20px;
+}
+
+.finans-page__top {
+	position: relative;
+	margin-bottom: 35px;
+	padding-bottom: 35px;
+
+	&:before {
+		position: absolute;
+		display: block;
+		content: "";
+		bottom: 0;
+		height: 1px;
+		width: 100%;
+		left: 50%;
+		transform: translateX(-50%);
+		background: image-url("bg-items/palka-3.png") no-repeat center;
+	}
+}
+
+.finans-page__center-top {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.finans__general-date {
+	font-size: 18px;
+	line-height: 25px;
+	@include font(ital);
+	color: #ba368c;
+}
+
+.finans__inner-list {
+	position: relative;
+
+	&:before {
+		position: absolute;
+		display: block;
+		content: "";
+		bottom: 0;
+		height: 1px;
+		width: 100%;
+		left: 50%;
+		transform: translateX(-50%);
+		background: image-url("bg-items/palka-3.png") no-repeat center;
+	}
+}
+
+.finans-page__bottom {
+	padding: 25px 0 0 0;
+}
+
+.finans__inner-list {
+	padding: 0 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.finans__inner-item {
+	flex: 0 0 33%;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 55px;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: underline;
+	text-align: center;
+	@include linksHover();
+	position: relative;
+	margin-bottom: 20px;
+
+	&:before {
+		display: block;
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 50%;
+		width: 35px;
+		height: 45px;
+		transform: translateX(-50%);
+		background: image-url('bg-items/document-ico.png') no-repeat;
+	}
+}
+
+.finans__general-item {
+	margin-bottom: 25px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}

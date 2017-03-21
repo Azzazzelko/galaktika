@@ -110,14 +110,28 @@
 	font-size: 20px;
 	vertical-align: middle;
 	line-height: 30px;
-	color: #1eadcb;
+	color: #ba368c;
 	text-decoration: underline;
 	@include font(med);
 	margin-right: 30px;
 	display: inline-block;
 	position: relative;
 
+	&:first-child {
+		color: #1eadcb;
+	}
+
 	&:after {
+		display: block;
+		content: "/";
+		position: absolute;
+		right: -20px;
+		top: 0;
+		font-size: 20px;
+		color: #ba368c;
+	}
+
+	&:nth-last-child(2):after {
 		display: block;
 		content: "/";
 		position: absolute;
@@ -128,6 +142,7 @@
 	}
 
 	&:last-child {
+		display: inline;
 		margin-right: 0;
 		font-size: 35px;
 		color: #ba368c;

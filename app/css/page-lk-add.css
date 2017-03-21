@@ -1,0 +1,31 @@
+body {
+  background: url('../images/bg-items/registration-bg-shadow.png?1489759703') no-repeat center top, url('../images/bg.png?1489666726');
+}
+
+.breadcrumbs-block {
+  margin-top: -5px;
+  margin-bottom: 30px;
+  padding-top: 0;
+}
+.breadcrumbs-block .breadcrumbs-block__list {
+  text-align: left;
+  display: inline-block;
+}
+.breadcrumbs-block .container {
+  width: auto;
+  padding: 0;
+}
+
+.header {
+  background: url('../images/bg-items/registration-bg-body.png?1489759734') repeat-y center;
+}
+
+.main {
+  background: url('../images/bg-items/registration-bg-body.png?1489759734') repeat-y center;
+}
+
+.sidebar__link-title_margin {
+  margin-bottom: 18px;
+}
+
+/*# sourceMappingURL=page-lk-add.css.map */

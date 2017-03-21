@@ -1,0 +1,18 @@
+.info-page__list.news-page__list {
+	margin-bottom: 0;
+
+	.news-page__item {
+		padding-left: 30px;
+		height: auto;
+
+		&:last-child {
+			&:before {
+				display: none;
+			}
+		}
+	}
+
+	.news-page__item-top-description {
+		@include font(lightital);
+	}
+}

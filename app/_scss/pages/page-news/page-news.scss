@@ -8,7 +8,7 @@
 }
 
 .sidebar {
-	margin-right: -30px;
+	margin-right: -20px;
 }
 
 .sidebar__item {
@@ -43,13 +43,13 @@
 }
 
 .sidebar__item-item {
-	margin-bottom: 5px;
+	margin-bottom: 4px;
 	position: relative;
 	color: #fff;
 	font-size: 18px;
 	@include font(ital);
 	padding-left: 15px;
-	line-height: 25px;
+	line-height: 20px;
 
 	&.active {
 		color: #ba368c;
