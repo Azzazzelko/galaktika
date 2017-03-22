@@ -1,0 +1,102 @@
+.lk-profile__title {
+	font-size: 18px;
+	line-height: 24px;
+	color: #fff;
+	padding-left: 20px;
+}
+
+.lk-profile__info {
+	padding: 35px 0;
+}
+
+.lk-profile__tel,
+.lk-profile__email,
+.lk-profile__name,
+.lk-profile__adress {
+	margin-bottom: 25px;
+	width: 355px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 18px;
+	height: 38px;
+	line-height: 38px;
+	color: #fff;
+	padding: 0 70px 0 20px;
+	background: #520f51;
+	position: relative;
+	border-radius: 15px;
+
+	&:before {
+		display: block;
+		position: absolute;
+		content: "";
+		top: 45%;
+		transform: translateY(-50%);
+		width: 19px;
+		height: 19px;
+		background: image-url('bg-items/pen-ico.png') no-repeat;
+		right: 20px;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.lk-profile__files-title {
+	font-size: 18px;
+	color: #fff;
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+
+.lk-profile__files-item {
+	margin-bottom: 25px;
+	padding-left: 40px;
+	display: flex;
+	width: 510px;
+	align-items: center;
+}
+
+.lk-profile__files-name,
+.lk-profile__files-name:hover,
+.lk-profile__files-name:focus {
+	font-size: 18px;
+	color: #fff;
+	text-decoration: underline;
+	max-width: 315px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.lk-profile__files-name {
+	@include linksHover();
+}
+
+.lk-profile__files-img-container {
+	max-width: 37px;
+	margin-right: 20px;
+}
+
+.lk-profile__files-img {
+	width: 100%;
+}
+
+.lk-profile__remove,
+.lk-profile__remove:hover,
+.lk-profile__remove:focus {
+	font-size: 18px;
+	color: #ba368c;
+	margin-left: auto;
+	text-decoration: underline;
+}
+
+.lk-profile__remove {
+	@include linksHover();
+}
+
+.lk-profile__files-list {
+	margin-bottom: 30px;
+}

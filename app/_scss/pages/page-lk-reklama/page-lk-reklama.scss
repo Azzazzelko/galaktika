@@ -1,0 +1,22 @@
+.reklama-page__title {
+	font-size: 20px;
+	color: #fff;
+	@include font(medital);
+	line-height: 24px;
+	margin-bottom: 25px;
+}
+
+.reklama-page__form {
+	width: 355px;
+	margin-bottom: 60px;
+}
+
+.registration-block__input.reklama-page__input {
+	margin-bottom: 50px;
+}
+
+.reklama-page__description {
+	font-size: 18px;
+	line-height: 30px;
+	color: #fff;
+}

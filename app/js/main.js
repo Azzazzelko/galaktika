@@ -54,9 +54,33 @@ $(function() {
 			firstDay: 1,
 			isRTL: false
 		};
-	    $.datepicker.setDefaults($.datepicker.regional['ru']);
+		$.datepicker.setDefaults($.datepicker.regional['ru']);
 
-	    $( "#datepicker" ).datepicker();
+		$( "#datepicker" ).datepicker();
 	};
+
+
+	/* scrollbar */
+	if ( $('.feedback-page__textarea').length ){
+		$('.feedback-page__textarea').scrollbar({
+			"showArrows": true,
+			"scrollx": "advanced",
+			"scrolly": "advanced"
+		});
+	};
+
+	/* select */
+	if ( $(".select").length ){
+		$(".select").select2({
+			placeholder: "Test"
+		});
+	};
+	
+	/* clear form */
+	$(".registration-block__clear-btn").on("click", function(e){
+		e.preventDefault();
+		
+		form[0].reset();
+	});
 
 }());

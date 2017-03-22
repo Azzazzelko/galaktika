@@ -24,8 +24,16 @@ body {
   background: url('../images/bg-items/registration-bg-body.png?1489759734') repeat-y center;
 }
 
+.sidebar {
+  margin-right: 15px;
+}
+
 .sidebar__link-title_margin {
   margin-bottom: 18px;
+}
+
+.sidebar__item-list .sidebar__item-list {
+  padding-left: 0;
 }
 
 /*# sourceMappingURL=page-lk-add.css.map */

@@ -1,6 +1,6 @@
 body {
 	background: image-url('bg-items/registration-bg-shadow.png') no-repeat center top,
-				image-url('bg.png');
+	image-url('bg.png');
 }
 
 .breadcrumbs-block {
@@ -27,6 +27,17 @@ body {
 	background: image-url('bg-items/registration-bg-body.png') repeat-y center;
 }
 
+.sidebar {
+	margin-right: 15px;
+}
+
 .sidebar__link-title_margin {
 	margin-bottom: 18px;
 }
+
+.sidebar__item-list {
+	.sidebar__item-list {
+		padding-left: 0;
+	}
+}
+

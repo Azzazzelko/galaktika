@@ -1,0 +1,200 @@
+.feedback-page__top {
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.feedback-page__title {
+	font-size: 20px;
+	line-height: 24px;
+	color: #fff;
+	font-family: 'pfagorasanspro-mediumital';
+}
+
+.feedback-page__history-btn,
+.feedback-page__history-btn:hover,
+.feedback-page__history-btn:focus {
+	display: inline-block;
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 15px;
+	background: #520f51;
+	text-decoration: underline;
+	color: #fff;
+	font-size: 18px;
+}
+
+.feedback-page__history-btn {
+	@include linksHover();
+}
+
+.feedback-page__form {
+	display: inline-block;
+}
+
+.registration-block__input.feedback-page__input {
+	margin-bottom: 45px;
+}
+
+.feedback-page__textarea {
+	height: 150px;
+	resize: none;
+	border-radius: 15px;
+	padding: 11px 20px;
+	font-size: 16px;
+	color: #fff;
+	font-family: 'pfagorasanspro-italic';
+	background: #520f51;
+	width: 355px;
+	margin-bottom: 25px;
+	border: none;
+	outline: none;
+	line-height: 19px;
+
+	&::-webkit-input-placeholder {
+		color: rgba(255,255,255, 0.7);
+	}
+
+	& > .scroll-content {
+		padding: 11px 18px;
+	}
+
+	.feedback-page__textarea {
+		border-radius: 0;
+	}
+}
+
+.registration-block__submit-btn.feedback-page__submit-btn {
+	display: block;
+	margin: 0 auto;
+}
+
+/*
+* scroll-bar
+*/
+
+.scroll-wrapper {
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: relative;
+}
+
+.scroll-wrapper > .scroll-content {
+	border: none !important;
+	box-sizing: content-box !important;
+	height: auto;
+	left: 0;
+	margin: 0;
+	max-height: none;
+	max-width: none !important;
+	overflow: scroll !important;
+	padding: 0;
+	position: relative !important;
+	top: 0;
+	width: auto !important;
+}
+
+.scroll-wrapper > .scroll-content::-webkit-scrollbar {
+	height: 0;
+	width: 0;
+}
+
+.scroll-element {
+	display: none;
+}
+
+.scroll-element, .scroll-element div {
+	box-sizing: content-box;
+}
+
+.scroll-element.scroll-x.scroll-scrollx_visible,
+.scroll-element.scroll-y.scroll-scrolly_visible {
+	display: block;
+}
+
+.scroll-element.scroll-x.scroll-scrollx_visible {
+	display: none;
+}
+
+.scroll-element .scroll-bar,
+.scroll-element .scroll-arrow {
+	cursor: default;
+}
+
+.scroll-textarea > .scroll-content {
+	overflow: hidden !important;
+}
+
+.scroll-textarea > .scroll-content > textarea {
+	border: none !important;
+	box-sizing: border-box;
+	height: 100% !important;
+	margin: 0;
+	max-height: none !important;
+	max-width: none !important;
+	overflow: scroll !important;
+	outline: none;
+	padding: 11px 20px;
+	padding-right: 60px;
+	position: relative !important;
+	top: 0;
+	width: 110% !important;
+}
+
+.scroll-textarea > .scroll-content > textarea::-webkit-scrollbar {
+	height: 0;
+	width: 0;
+}
+
+.scrollbar-outer > .scroll-element.scroll-y {
+	right: 14px;
+	height: 123px;
+	top: 50%;
+	width: 18px;
+	background: transparent;
+	transform: translateY(-50%);
+	margin-top: 9px;
+}
+
+.scrollbar-outer > .scroll-element.scroll-y .scroll-element_outer {
+	width: 100%;
+	left: 0;
+	border-radius: 0;
+}
+
+.scrollbar-outer > .scroll-element .scroll-element_track {
+	background: #933a92;
+	border-radius: 0;
+}
+
+.scrollbar-outer > .scroll-element .scroll-bar {
+	background: #3a0839;
+	border-radius: 0;
+}
+
+.scrollbar-outer > .scroll-element .scroll-arrow.scroll-arrow_less {
+	top: -9px;
+	height: 0px;
+	width: 0px;
+	border-left: 9px solid transparent;
+	border-right: 9px solid transparent;
+	border-bottom: 9px solid #fff;
+}
+
+.scrollbar-outer > .scroll-element .scroll-arrow.scroll-arrow_more {
+	bottom: 5px;
+	z-index: 11;
+	top: auto;
+	width: 0px;
+	height: 0px;
+	border-left: 9px solid transparent;
+	border-right: 9px solid transparent;
+	border-top: 9px solid #fff;
+}
+
+/*
+* scroll-bar... end;
+*/
