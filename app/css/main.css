@@ -76,15 +76,28 @@ body {
 }
 
 #flashContent {
-  width: 100%;
-  height: 670px;
+  width: auto;
+  height: 580px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.flash-block {
+  width: 1000px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  height: 580px;
+  position: relative;
 }
 
 /*
 * menu-block
 */
 .menu-block {
-  padding-top: 20px;
+  padding-top: 60px;
   padding-bottom: 50px;
   position: relative;
   background: url('../images/bg-items/menu-bg-shadow.png?1489747536') no-repeat;
@@ -94,7 +107,7 @@ body {
   position: absolute;
   display: block;
   content: "";
-  top: -35px;
+  top: 5px;
   height: 1px;
   width: 100%;
   left: 50%;
