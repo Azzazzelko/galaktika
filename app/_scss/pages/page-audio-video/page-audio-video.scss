@@ -55,7 +55,10 @@
 	display: none !important;
 }
 
-.multi-page__label-file {
+.multi-page__subm-btn,
+.multi-page__subm-btn:hover,
+.multi-page__subm-btn:focus {
+	display: inline-block;
 	@include linksHover();
 	white-space: nowrap;
 	overflow: hidden;
