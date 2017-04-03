@@ -1,0 +1,51 @@
+.gallery-page__item {
+	height: 165px;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 12px;
+
+	&.col-xs-3 {
+		padding-right: 6px;
+		padding-left: 6px;
+	}
+}
+
+.gallery-page__img-container {
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+.gallery-page__list {
+	margin-right: -12px;
+	font-size: 0;
+	position: relative;
+
+	&.row {
+		margin-left: -6px;
+		margin-right: -6px;
+	}
+}
+
+.gellery-page__list-container {
+	position: relative;
+	margin-bottom: 20px;
+
+	&:after {
+		position: absolute;
+		display: block;
+		content: "";
+		bottom: 0;
+		height: 1px;
+		width: 100%;
+		left: 50%;
+		transform: translateX(-50%);
+		background: image-url('bg-items/palka-3.png') no-repeat center;
+	}
+}
+
+.gallery-page__link {
+	width: 100%;
+	height: 100%;
+}

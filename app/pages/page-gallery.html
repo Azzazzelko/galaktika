@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Галлерея</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/fonts.css">
+	<link rel="stylesheet" href="../css/owl.carousel.css">
+	<link rel="stylesheet" href="../css/jquery-ui.min.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/page-news-add.css">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<header class="header">
+		<div class="container header-container">
+			<div class="header-top">
+				<a class="header__logo-img-container img-container" href="#">
+					<h1 class="header__logo-text">Галактика</h1>
+					<img src="../images/logo.png" alt="img" class="header__logo-img img-responsive">
+				</a>
+				<nav class="header__nav">
+					<ul class="header__nav-list">
+						<li class="header__nav-item">
+							<a href="#" class="header__nav-link">План</a>
+						</li>
+						<li class="header__nav-item">
+							<a href="#" class="header__nav-link">Центр</a>
+						</li>
+						<li class="header__nav-item">
+							<a href="#" class="header__nav-link">Карта</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="footer__top-menu">
+					<a href="#" class="footer__top-menu-title">Арендаторам</a>
+					<ul class="footer__top-menu-list">
+						<li class="footer__top-menu-item">
+							<a href="#" class="footer__top-menu-link search"></a>
+						</li>
+						<li class="footer__top-menu-item">
+							<a href="#" class="footer__top-menu-link mail"></a>
+						</li>
+						<li class="footer__top-menu-item">
+							<a href="#" class="footer__top-menu-link net"></a>
+						</li>
+						<li class="footer__top-menu-item">
+							<a href="#" class="footer__top-menu-link exit"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<a href="#" class="header-bottom__tomain-btn">- на главную</a>
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="content-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-3">
+						<aside class="sidebar">
+							<ul class="sidebar__list">
+								<li class="sidebar__item">
+									<a href="#" class="sidebar__link-title">
+										ТРК «Галактика»
+									</a>
+								</li>
+								<li class="sidebar__item">
+									<a href="#" class="sidebar__link-title">
+										События
+									</a>
+								</li>
+								<li class="sidebar__item">
+									<a href="#" class="sidebar__link-title">
+										Магазины
+									</a>
+									<ul class="sidebar__item-list">
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Одежда и обувь</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Кожгалантерея</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Парфюмерия и косметика</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Украшения и аксессуары</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Подарки и сувениры</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Бытовая техника и электроника</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Продукты питания</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Аптека</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Оптика</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Книги и диски</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Товары для детей</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Часы</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Товары для животных</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Текстиль для дома</a>
+										</li>
+									</ul>
+								</li>
+								<li class="sidebar__item">
+									<a href="#" class="sidebar__link-title">
+										Отдых
+									</a>
+								</li>
+								<li class="sidebar__item">
+									<a href="#" class="sidebar__link-title">
+										Услуги
+									</a>
+								</li>
+								<li class="sidebar__item active">
+									<a href="#" class="sidebar__link-title">
+										Фотогалерея
+									</a>
+									<ul class="sidebar__item-list">
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Праздник дня</a>
+										</li>
+										<li class="sidebar__item-item active">
+											<a href="#" class="sidebar__item-link">Новый отдел</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Танцевальное шоу</a>
+										</li>
+										<li class="sidebar__item-item">
+											<a href="#" class="sidebar__item-link">Бальный выпуской школа танцев</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</aside>
+					</div>
+					<div class="col-xs-9 content-block_padd">
+						<a href="#" class="content-block__tomain-btn">- на главную</a>
+
+						<section class="breadcrumbs-block">
+							<div class="container">
+								<ul class="breadcrumbs-block__list">
+									<li class="breadcrumbs-block__item">
+										<a href="#" class="breadcrumbs-block__link">на главную</a>
+									</li>
+									<li class="breadcrumbs-block__item">
+										<a href="#" class="breadcrumbs-block__link">Фотогалерея</a>
+									</li>
+									<li class="breadcrumbs-block__item">
+										Новый отдел
+									</li>
+								</ul>
+							</div>
+						</section>
+
+						<section class="gallery-page">
+							<div class="news-page__top">
+								<h2 class="news-page__title">12.04.2017</h2>
+								<input type="text" name="date" class="news-page__input-date" id="datepicker" value="Выбрать дату">
+								<ul class="pagination__list">
+									<li class="pagination__item">
+										<a href="#" class="pagination__link">1</a>
+									</li>
+									<li class="pagination__item">
+										<a href="#" class="pagination__link">2</a>
+									</li>
+									<li class="pagination__item">
+										<a href="#" class="pagination__link">3</a>
+									</li>
+									<li class="pagination__item active">
+										<a href="#" class="pagination__link">4</a>
+									</li>
+									<li class="pagination__item">
+										<a href="#" class="pagination__link">5</a>
+									</li>
+									<li class="pagination__item">
+										<a href="#" class="pagination__link">6</a>
+									</li>
+									<li class="pagination__item">
+										<a href="#" class="pagination__link">7</a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="gellery-page__list-container">
+								<ul class="gallery-page__list row">
+									<li class="gallery-page__item col-xs-3">
+										<a href="#" class='gallery-page__link'>
+											<div class="gallery-page__img-container" style="background-image: url(../images/detail-news-img-1.png)"></div>
+										</a>
+									</li>
+									<li class="gallery-page__item col-xs-3">
+										<a href="#" class='gallery-page__link'>
+											<div class="gallery-page__img-container" style="background-image: url(../images/detail-news-img-1.png)"></div>
+										</a>
+									</li>
+									<li class="gallery-page__item col-xs-3">
+										<a href="#" class='gallery-page__link'>
+											<div class="gallery-page__img-container" style="background-image: url(../images/detail-news-img-1.png)"></div>
+										</a>
+									</li>
+									<li class="gallery-page__item col-xs-3">
+										<a href="#" class='gallery-page__link'>
+											<div class="gallery-page__img-container" style="background-image: url(../images/detail-news-img-1.png)"></div>
+										</a>
+									</li>
+									<li class="gallery-page__item col-xs-3">
+										<a href="#" class='gallery-page__link'>
+											<div class="gallery-page__img-container" style="background-image: url(../images/detail-news-img-1.png)"></div>
+										</a>
+									</li>
+									<li class="gallery-page__item col-xs-3">
+										<a href="#" class='gallery-page__link'>
+											<div class="gallery-page__img-container" style="background-image: url(../images/detail-news-img-1.png)"></div>
+										</a>
+									</li>
+									<li class="gallery-page__item col-xs-3">
+										<a href="#" class='gallery-page__link'>
+											<div class="gallery-page__img-container" style="background-image: url(../images/detail-news-img-1.png)"></div>
+										</a>
+									</li>
+									<li class="gallery-page__item col-xs-3">
+										<a href="#" class='gallery-page__link'>
+											<div class="gallery-page__img-container" style="background-image: url(../images/detail-news-img-1.png)"></div>
+										</a>
+									</li>
+									<li class="gallery-page__item col-xs-3">
+										<a href="#" class='gallery-page__link'>
+											<div class="gallery-page__img-container" style="background-image: url(../images/detail-news-img-1.png)"></div>
+										</a>
+									</li>
+									<li class="gallery-page__item col-xs-3">
+										<a href="#" class='gallery-page__link'>
+											<div class="gallery-page__img-container" style="background-image: url(../images/detail-news-img-1.png)"></div>
+										</a>
+									</li>
+									<li class="gallery-page__item col-xs-3">
+										<a href="#" class='gallery-page__link'>
+											<div class="gallery-page__img-container" style="background-image: url(../images/detail-news-img-1.png)"></div>
+										</a>
+									</li>
+									<li class="gallery-page__item col-xs-3">
+										<a href="#" class='gallery-page__link'>
+											<div class="gallery-page__img-container" style="background-image: url(../images/detail-news-img-1.png)"></div>
+										</a>
+									</li>
+									<li class="gallery-page__item col-xs-3">
+										<a href="#" class='gallery-page__link'>
+											<div class="gallery-page__img-container" style="background-image: url(../images/detail-news-img-1.png)"></div>
+										</a>
+									</li>
+									<li class="gallery-page__item col-xs-3">
+										<a href="#" class='gallery-page__link'>
+											<div class="gallery-page__img-container" style="background-image: url(../images/detail-news-img-1.png)"></div>
+										</a>
+									</li>
+									<li class="gallery-page__item col-xs-3">
+										<a href="#" class='gallery-page__link'>
+											<div class="gallery-page__img-container" style="background-image: url(../images/detail-news-img-1.png)"></div>
+										</a>
+									</li>
+									<li class="gallery-page__item col-xs-3">
+										<a href="#" class='gallery-page__link'>
+											<div class="gallery-page__img-container" style="background-image: url(../images/detail-news-img-1.png)"></div>
+										</a>
+									</li>
+								</ul>
+							</div>
+
+							<ul class="pagination__list">
+								<li class="pagination__item">
+									<a href="#" class="pagination__link">1</a>
+								</li>
+								<li class="pagination__item">
+									<a href="#" class="pagination__link">2</a>
+								</li>
+								<li class="pagination__item">
+									<a href="#" class="pagination__link">3</a>
+								</li>
+								<li class="pagination__item active">
+									<a href="#" class="pagination__link">4</a>
+								</li>
+								<li class="pagination__item">
+									<a href="#" class="pagination__link">5</a>
+								</li>
+								<li class="pagination__item">
+									<a href="#" class="pagination__link">6</a>
+								</li>
+								<li class="pagination__item">
+									<a href="#" class="pagination__link">7</a>
+								</li>
+							</ul>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="arenda-block arenda-block_padding">
+			<div class="container">
+				<div class="arenda-block__title">Наши арендаторы:</div>
+				<div class="owl-carousel owl-arenda">
+					<div class="owl-arenda__item">
+						<img src="../images/arendators/arendators-1.png" alt="img" class="owl-arenda__img">
+					</div>
+					<div class="owl-arenda__item">
+						<img src="../images/arendators/arendators-2.png" alt="img" class="owl-arenda__img">
+					</div>
+					<div class="owl-arenda__item">
+						<img src="../images/arendators/arendators-3.png" alt="img" class="owl-arenda__img">
+					</div>
+					<div class="owl-arenda__item">
+						<img src="../images/arendators/arendators-4.png" alt="img" class="owl-arenda__img">
+					</div>
+					<div class="owl-arenda__item">
+						<img src="../images/arendators/arendators-5.png" alt="img" class="owl-arenda__img">
+					</div>
+					<div class="owl-arenda__item">
+						<img src="../images/arendators/arendators-6.png" alt="img" class="owl-arenda__img">
+					</div>
+					<div class="owl-arenda__item">
+						<img src="../images/arendators/arendators-7.png" alt="img" class="owl-arenda__img">
+					</div>
+					<div class="owl-arenda__item">
+						<img src="../images/arendators/arendators-1.png" alt="img" class="owl-arenda__img">
+					</div>
+					<div class="owl-arenda__item">
+						<img src="../images/arendators/arendators-2.png" alt="img" class="owl-arenda__img">
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container footer__container">
+			<div class="footer__top">
+				<div class="footer__top-cols">
+					<div class="footer__top-col">
+						<div class="footer__top-title">ТРК «Галактика»</div>
+						<ul class="footer__top-list">
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">План</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Центр</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Карта</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Новости</a>
+							</li>
+						</ul>
+						<ul class="footer__top-list">
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">О ТРК «Галактика»</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Акции и мероприятия</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Аренда</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Посещаемость</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Контакты</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">«Галактика» благотворительная</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Карта комплекса</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Реклама</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Фотогалерея</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__top-col">
+						<div class="footer__top-title">Магазины</div>
+						<ul class="footer__top-list">
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Гипермаркет О`Кей</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Обувь и сумки</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Спорттовары</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Красота и здоровье</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Товары для детей</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Мебель и декор</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Электроника</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Ювелираные изделия, часы</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Аксессуары</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Мобильная связь</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Падарки и сувениры</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Аптека, оптика</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Товары для животных</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Специализированные магазины</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__top-col">
+						<div class="footer__top-title">Отдых</div>
+						<ul class="footer__top-list">
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Кафе и рестораны</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Океанариум</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Детский центр «Космодром»</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Салоны красоты</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Планетарий «Сфера»</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Сад бабочек</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Экзотариум</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__top-col">
+						<div class="footer__top-title">Услуги</div>
+						<ul class="footer__top-list">
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Ателье</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Банки</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Банкоматы</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Прачечная «Вятки.Нет»</a>
+							</li>
+							<li class="footer__top-item">
+								<a href="#" class="footer__top-link">Туристические агентства</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__top-menu">
+					<a href="#" class="footer__top-menu-title">Арендаторам</a>
+					<ul class="footer__top-menu-list">
+						<li class="footer__top-menu-item">
+							<a href="#" class="footer__top-menu-link search"></a>
+						</li>
+						<li class="footer__top-menu-item">
+							<a href="#" class="footer__top-menu-link mail"></a>
+						</li>
+						<li class="footer__top-menu-item">
+							<a href="#" class="footer__top-menu-link net"></a>
+						</li>
+						<li class="footer__top-menu-item">
+							<a href="#" class="footer__top-menu-link exit"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__bottom-info">
+					<div class="footer__bottom-title">© 2014 Торгово-развлекательный комплекс «Галактика»</div>
+					<div class="footer__bottom-tel">Телефон: (434) 123-32-45</div>
+					<a href="#" class="footer__bottom-email">info@trk-galaktika.ru</a>
+				</div>	
+				<a href="#" class="footer__bottom-top-btn">Подняться наверх</a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="../js/jquery-1.11.0.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/owl.carousel.min.js"></script>
+	<script src="../js/jquery-ui.js"></script>
+	<script src="../js/main.js"></script>
+</body>
+</html>
