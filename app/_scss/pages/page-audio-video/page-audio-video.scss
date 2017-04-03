@@ -90,3 +90,25 @@
 	font-size: 16px;
 	color: #fff;
 }
+
+
+.multi-page_audio {
+	display: none;
+
+	&.open {
+		display: block;
+	}
+}
+
+.multi-page_video {
+	display: none;
+	width: 100%;
+
+	&.open {
+		display: block;
+	}
+}
+
+.multimedia-container {
+	margin-bottom: 50px;
+}

@@ -961,6 +961,25 @@ body {
   color: #fff;
 }
 
+.multi-page_audio {
+  display: none;
+}
+.multi-page_audio.open {
+  display: block;
+}
+
+.multi-page_video {
+  display: none;
+  width: 100%;
+}
+.multi-page_video.open {
+  display: block;
+}
+
+.multimedia-container {
+  margin-bottom: 50px;
+}
+
 .boutique-top__img-container {
   transform: translateX(-50%);
   left: 50%;
@@ -1421,6 +1440,31 @@ body {
 
 .lk-profile__files-list {
   margin-bottom: 30px;
+}
+
+.multi-page__label-file {
+  display: inline-block;
+  transition: all .3s ease-in-out;
+  opacity: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  transition: all .3s ease-in-out;
+  opacity: 1;
+  cursor: pointer;
+  background: #520f51;
+  border-radius: 15px;
+  height: 41px;
+  line-height: 41px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 25px;
+  margin-bottom: 55px;
+}
+.multi-page__label-file:hover {
+  opacity: 0.6;
 }
 
 .reklama-page__title {

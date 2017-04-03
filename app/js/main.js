@@ -83,4 +83,26 @@ $(function() {
 		form[0].reset();
 	});
 
+	/* multimedia page */
+	$('.multi-page__link').on('click', function(e){
+		e.preventDefault();
+
+		var $this = $(this);
+		var type = $this.parent().data("type");
+		
+		clearMulti();
+		cloneMilti(type, $this);
+	});
+
+	function cloneMilti(type, elem){
+		var $m = elem.find(type);
+
+		$m.clone().appendTo('.multimedia-container');
+		$('.multimedia-container').find(type).addClass('open');
+	};
+
+	function clearMulti(){
+		$('.multimedia-container').text("");
+	};
+
 }());

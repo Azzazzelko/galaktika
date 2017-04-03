@@ -100,3 +100,24 @@
 .lk-profile__files-list {
 	margin-bottom: 30px;
 }
+
+.multi-page__label-file {
+	display: inline-block;
+	@include linksHover();
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+	transition: all .3s ease-in-out;
+	opacity: 1;
+	cursor: pointer;
+	background: #520f51;
+	border-radius: 15px;
+	height: 41px;
+	line-height: 41px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	padding: 0 25px;
+	margin-bottom: 55px;
+}
